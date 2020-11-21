@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;   
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
+nav {
+    height: 100px;
+    background-color: darkblue;
+    text-align: center;
+    line-height: 100px;
+}
+
+nav form input {
+    display: inline-block;
+}
+
+nav form label {
+    display: inline-block;
+    color: snow;
+}
+
+.header-img {
+    position: relative;
+    height: 50px;
+    background-color: cornflowerblue;
+}
+
+.header-bg {
+    height: 100%;
+    width: 100%;
+}
+
+.header-txt {
+    position: relative;
+    text-align: center;
+    transform: translate(-50% -50%);
+    color: darkblue;
+    text-transform: uppercase;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 5px dimgray;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+picture {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    color: snow;
+    background-color: cornflowerblue;
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+    bottom: 0;
+}
+
+.icons a {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: 30px;
+    vertical-align: middle;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    -ms-transition: all .3s;
+}
+
+.icons a.twitter { background: url(../images/twitter.png) left top no-repeat; }
+.icons a.dribbble { background: url(../images/dribbble.png) left top no-repeat; }
+.icons a.facebook { background: url(../images/facebook.png) left top no-repeat; }
+
+.icons a:hover { background-position: left -34px; }
+
+footer div ul {
+    display: inline-block;
+}
+
+ul li {
+    display: inline-block;
+}

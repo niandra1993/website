@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Portfolio</title>
+  <meta name="description" content="Moje portfolio">
+  <meta name="author" content="Piotrek">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/formalize.css">
+  <link rel="stylesheet" href="css/skeleton-960.css">
+
+
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/ico" href="images/favicon.ico">
+
+</head>
+
+<body>
+
+<header>
+  <div class="header-img">
+    <div class="header-txt">
+      <h1>Portfolio</h1>
+      <p>Piotrek Niewiadomski</p>
+    </div>
+    <div class="header-bg"></div>
+  </div>
+</header>
+
+<nav>
+<form class="container clearfix">
+
+<input class="nav-menu" id="all" type="radio" name="filter"
+checked="checked"/>
+<label for="all">Wszystkie</label>
+<input class="nav-menu" id="illustrations" type="radio"
+name="filter"/>
+<label for="illustrations">Ilustracje</label>
+<input class="nav-menu" id="posters" type="radio" name="filter"/>
+<label class="nav-menu" for="posters">Plakaty</label>
+<input class="nav-menu" id="typography" type="radio"
+name="filter"/>
+<label for="typography">Typografia</label>
+<input class="nav-menu" id="packaging" type="radio"
+name="filter"/>
+<label for="packaging">Opakowania</label>
+</form>
+
+</nav>
+
+<section class="portfolio">
+  <figure class="four columns all poster" data category="ilustracje">
+    <picture>
+      <source media="(max-width:350px" srcset="images/image-1.jpg">
+      <source media="(max-width:400px)" srcset="images/image-3.jpg">
+      <source media="(max-width:550px)" srcset="images/image-4.jpg">
+      <source media="(max-width:750px)" srcset="images/image-5.jpg">
+      <source media="(max-width:1000px)" srcset="images/image-6.jpg">
+      <source media="(min-width:1200px)" srcset="images/image-7.jpg">
+      <img src="images/image-7.jpg" alt="Flowers" style="width:auto;">
+    </picture>
+    <figcaption>
+      <h4>Lorem Ipsum</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </figcaption>
+</figure>
+</section>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue nisl ipsum, nec imperdiet libero faucibus in. Donec id metus pretium, placerat arcu vel, ultrices velit. Ut facilisis elit non velit scelerisque facilisis. Sed sapien lorem, feugiat ut dignissim non, dignissim eu metus. Fusce tincidunt neque sed sem maximus, non eleifend dolor sodales. Nulla tempor, augue sed pretium egestas, est nisl pulvinar turpis, sit amet mollis nunc mauris id lectus. Suspendisse ullamcorper diam velit, quis maximus lectus tristique nec. Quisque id eros consequat, interdum sapien eget, semper nibh. Donec ullamcorper congue lacus, at vestibulum quam efficitur et.
+
+  Quisque felis tortor, blandit vitae erat id, accumsan euismod odio. Cras consequat dui ut elit aliquam mollis. Proin vitae sodales risus. Ut lacinia at magna id pulvinar. Fusce vel mauris eu dolor auctor blandit faucibus vel turpis. Curabitur quis tempor lectus. Nulla facilisi. Vestibulum at dictum neque. Vestibulum nisi orci, elementum in neque eu, porttitor congue purus. Nulla facilisi.</p>
+
+<section>
+  <form>
+    <label for="name">Imię</label>
+    <input type="text" id="name">
+    <label for="message">Wiadomość</label>
+    <textarea id="message" placeholder="Zadaj mi pytanie :)"></textarea>
+    <label></label>
+    <button type="submit">Wyślij</button>
+  </form>
+</section>
+
+<footer class="container clearfix">
+  <span class="contact">
+    <ul>
+    <li class="contact-name">Piotr Niewiadomski</li>
+    <li class="contact-phone">(+48) 600-700-800</li>
+    <li class="contact-email">piotrek@niewiadomski.pl</li>
+    </ul>
+  </span>
+  <div class="social">
+    <p class="copyright">Piotr Niewiadomski</p>
+    <div class="icons">
+      <a class="twitter" href="images/twitter.png"></a>
+      <a class="dribbble" href="images/dribbble.png"></a>
+      <a class="facebook" href="images/facebook.png"></a>
+    </div>
+  </div>
+</footer>
+
+  
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
