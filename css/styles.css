@@ -22,6 +22,7 @@ nav form input {
 nav form label {
     display: inline-block;
     color: snow;
+    font-size: 10px;
 }
 
 .header-img {
@@ -73,7 +74,7 @@ footer {
     color: snow;
     background-color: cornflowerblue;
     text-align: center;
-    font-size: 15px;
+    font-size: 10px;
     width: 100%;
     bottom: 0;
 }
